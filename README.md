@@ -1,16 +1,44 @@
-### Hi there 👋
+# Vexless
 
-<!--
-**Vexless/Vexless** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Introduction
 
-Here are some ideas to get you started:
+Here is the code base of Vexless, the first vector database that is built for Cloud Functions with the benefits of high elasticity, low operational cost, and fine-grained billing model.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Architecture of Vexless:
+
+The overall architecture is shown as below:
+
+## Code Structure
+
+
+## Setup:
+
+Storage: Due to the original dataset, >1TB is suggested.
+
+## Data preparation:
+
+## Data indexing:
+
+## Vector Search on Serverless Platform: 
+
+### Creating Azure Account:
+
+### Creating Subscription on Azure portal:
+
+### Creating Resource Group:
+
+### Creating Storage Account:
+
+### Creating Function Application:
+
+
+## Evaluation
+
+### Recall - Latency:
+
+
+### Cost analysis
+
+
+
+
