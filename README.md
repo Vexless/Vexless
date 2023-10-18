@@ -13,32 +13,32 @@ The overall architecture is shown below:
 
 ```script
 ├── Clustering
-│   ├── constrained-Vexless
+│   ├── constrained-Vexless // clustering using the method in the paper
 │   │   └── constrained_kmeans_w_clusters.py
-│   └── unbalanced-faiss
+│   └── unbalanced-faiss // clustering using faiss-based method
 │       ├── deep100M_faiss_kmeans.py
 │       ├── ...
 │       └── sift10M_faiss_kmeans.py
-├── Data
+├── Data // all the data we used in the experiment
 │   ├── DEEP
 │   │   └── script.sh
 │   ├── GIST
 │   │   └── script.sh
 │   └── SIFT
 │       └── script.sh
-├── Index
+├── Index // the destination folder for the vector data index
 │   ├── DEEP
 │   │   └── readme.md
 │   ├── GIST
 │   │   └── readme.md
 │   └── SIFT
 │       └── readme.md
-├── Indexing
+├── Indexing // code for building indexes
 │   ├── GIST1M_hnswlib_1index.py
 │   ├── constrained_kmeans_w_clusters.py
 │   └── deep10M_indexing_1index.py
-└── VectorSearch
-    ├── Naive
+└── VectorSearch // code for conducting vector searches on various solutions on cloud
+    ├── Naive // naively implemented function that did not have optimization.
     │   └── Naive_DF
     │       ├── DurableFunctionsHttpStart
     │       │   ├── __init__.py
@@ -52,9 +52,9 @@ The overall architecture is shown below:
     │       ├── host.json
     │       ├── local.settings.json
     │       └── requirements.txt
-    ├── VM
+    ├── VM // code for running single index query on a single VM D3 v2
     │   └── Deep10M_baseline_ANN_with_EF.py
-    └── Vexless
+    └── Vexless // code of Vexless' main function logic 
         └── DEF_with_partitioned_vector_Search
             ├── DEF
             │   ├── __init__.py
