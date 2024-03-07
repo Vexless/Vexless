@@ -67,17 +67,22 @@
 ![Figure_4](/workload-generator/assets/Figure_0.png)
 
 
-**AnalyticDB-V**: 
+**AnalyticDB-V**:   
+
 ![Figure_5](/workload-generator/onormal_inormal_n500000_d2400_g3_a11.0_b10.2_a21.6_b20.4_s0.png)
 
-**Twitter**: 
+**Twitter**:   
+
 ![Figure_6](/workload-generator/onormal_ipoisson_n50000_d1000_g10_a10.2_b10.7_a280.0_b20.7_s0.png)
 
-**High bursty**: 
+**High bursty**:   
+
 ![Figure_7](/workload-generator/(high)ozipf_izipf_n50000_d100000_g1000_a11.15_b10.1_a21.05_b20.01_s0.png)
 
-**Medium bursty**
+**Medium bursty**:   
+
 ![Figure_8](/workload-generator/(medium)ozipf_iuniform_n50000_d1000_g200_a12.2_b10.5_a21.001_b20.01_s0.png)
 
-**Low bursty**
+**Low bursty**:  
+
 ![Figure_9](/workload-generator/(low)oinverse_gaussian_inormal_n50000_d100000_g15_a11.15_b10.96_a25.0_b20.9_s0.png)
